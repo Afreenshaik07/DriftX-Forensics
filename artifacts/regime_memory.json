@@ -1,0 +1,146 @@
+[
+  {
+    "regime_id": "REGIME_001",
+    "signature": {
+      "feature_drift": 1.0,
+      "prediction_drift": 0.012252290979395,
+      "residual_drift": 0.0296009727041915,
+      "performance_degradation": 0.000887186622178783
+    },
+    "origin": "feature",
+    "drift_type": "FEATURE_DRIFT",
+    "action": "UPDATE",
+    "confidence": 0.7043,
+    "risk_score": 0.4061,
+    "model_version": "champion",
+    "adapter": "residual_adapter"
+  },
+  {
+    "regime_id": "REGIME_002",
+    "signature": {
+      "feature_drift": 0.9796429045374444,
+      "prediction_drift": 0.0412854796034924,
+      "residual_drift": 0.0993643578908301,
+      "performance_degradation": 0.06302533545755568
+    },
+    "origin": "feature",
+    "drift_type": "FEATURE_DRIFT",
+    "action": "UPDATE",
+    "confidence": 0.7102,
+    "risk_score": 0.4351,
+    "model_version": "champion",
+    "adapter": "residual_adapter"
+  },
+  {
+    "regime_id": "REGIME_003",
+    "signature": {
+      "feature_drift": 1.0,
+      "prediction_drift": 0.085875374448706,
+      "residual_drift": 0.0818071721466903,
+      "performance_degradation": 0.08465914311007262
+    },
+    "origin": "feature",
+    "drift_type": "FEATURE_DRIFT",
+    "action": "UPDATE",
+    "confidence": 0.5252,
+    "risk_score": 0.4253,
+    "model_version": "champion",
+    "adapter": "residual_adapter"
+  },
+  {
+    "regime_id": "REGIME_004",
+    "signature": {
+      "feature_drift": 0.0139388837999336,
+      "prediction_drift": 0.0139590695029191,
+      "residual_drift": 0.1976932831965632,
+      "performance_degradation": 0.11873605983925142
+    },
+    "origin": "unknown",
+    "drift_type": "CONCEPT_DRIFT",
+    "action": "MONITOR",
+    "confidence": 0.0,
+    "risk_score": 0.0,
+    "model_version": "champion",
+    "adapter": "none"
+  },
+  {
+    "regime_id": "REGIME_005",
+    "signature": {
+      "feature_drift": 0.0139388837999336,
+      "prediction_drift": 0.3096250815993826,
+      "residual_drift": 0.415152765047776,
+      "performance_degradation": 0.4881957203487351
+    },
+    "origin": "prediction",
+    "drift_type": "PREDICTION_DRIFT",
+    "action": "UPDATE",
+    "confidence": 0.4903,
+    "risk_score": 0.4666,
+    "model_version": "champion",
+    "adapter": "residual_adapter"
+  },
+  {
+    "regime_id": "REGIME_006",
+    "signature": {
+      "feature_drift": 0.0139388837999336,
+      "prediction_drift": 0.4236987181824079,
+      "residual_drift": 0.5100727147366244,
+      "performance_degradation": 0.8699841698783285
+    },
+    "origin": "prediction",
+    "drift_type": "PREDICTION_DRIFT",
+    "action": "RETRAIN",
+    "confidence": 0.6189,
+    "risk_score": 0.7243,
+    "model_version": "champion",
+    "adapter": "none"
+  },
+  {
+    "regime_id": "REGIME_007",
+    "signature": {
+      "feature_drift": 0.0139388837999336,
+      "prediction_drift": 0.0139590695029191,
+      "residual_drift": 0.2629009549227604,
+      "performance_degradation": 2.1305914358913736
+    },
+    "origin": "performance",
+    "drift_type": "PERFORMANCE_ONLY",
+    "action": "RETRAIN",
+    "confidence": 0.5,
+    "risk_score": 0.7039,
+    "model_version": "champion",
+    "adapter": "none"
+  },
+  {
+    "regime_id": "REGIME_008",
+    "signature": {
+      "feature_drift": 0.4166733984974554,
+      "prediction_drift": 0.0126261767961369,
+      "residual_drift": 0.0177259448778769,
+      "performance_degradation": -0.0025464416874135757
+    },
+    "origin": "feature",
+    "drift_type": "RECURRENT_DRIFT",
+    "action": "UPDATE",
+    "confidence": 0.4114,
+    "risk_score": 0.1867,
+    "model_version": "champion",
+    "adapter": "residual_adapter"
+  },
+  {
+    "regime_id": "REGIME_009",
+    "signature": {
+      "feature_drift": 0.0115792531383933,
+      "prediction_drift": 0.0150056658453744,
+      "residual_drift": 0.0101177770339013,
+      "performance_degradation": 0.005418214177981408
+    },
+    "origin": "unknown",
+    "drift_type": "NO_DRIFT",
+    "action": "MONITOR",
+    "confidence": 0.0,
+    "risk_score": 0.0,
+    "model_version": "champion",
+    "adapter": "none"
+  }
+]

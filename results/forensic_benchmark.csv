@@ -1,0 +1,4 @@
+scenario_id,true_origin,predicted_origin,diagnosis_confidence,detection_delay,false_alarm,origin_correct,path_correct,propagation_path_true,propagation_path_predicted,metrics
+F01,feature,feature,0.0,0.0,False,True,True,[],[],"{'reference_mae': 25.408545753673465, 'current_mae': 36.316733277587396, 'mae_increase_pct': 42.93117610769546, 'feature_ks': 1.0, 'prediction_ks': 0.033590250540841804, 'residual_ks': 0.10631708013970145}"
+F02,feature,feature,0.0,0.0,False,True,True,[],[],"{'reference_mae': 26.919741910253666, 'current_mae': 36.153558471945225, 'mae_increase_pct': 34.30128190855507, 'feature_ks': 0.9982194523934356, 'prediction_ks': 0.03490812524941739, 'residual_ks': 0.09118163289649878}"
+F03,feature,feature,0.0,0.0,False,True,True,[],[],"{'reference_mae': 25.408545753673465, 'current_mae': 40.246265321863476, 'mae_increase_pct': 58.3965714214275, 'feature_ks': 1.0, 'prediction_ks': 0.09679374616833525, 'residual_ks': 0.15302841703254477}"

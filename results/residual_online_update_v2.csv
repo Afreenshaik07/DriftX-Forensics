@@ -1,0 +1,2 @@
+experiment,drift_type,feature,magnitude,champion_stable_mae,champion_drifted_mae,champion_drifted_rmse,champion_drifted_r2,adapted_mae,adapted_rmse,adapted_r2,mae_improvement,improvement_ratio,update_batches,safety_decision,reason
+online_residual_adaptation_v2,FEATURE_DRIFT,sensor_2,0.3,44.246835330410654,16.456675492102615,22.344701448366582,0.6686072291717085,15.944484010841842,21.672650785117447,0.6882417291857721,0.512191,0.031124,16,PROMOTE,Challenger passed all safety checks. MAE improved sufficiently while RMSE and R2 remained within the permitted safety limits.

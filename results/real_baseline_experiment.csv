@@ -1,0 +1,2 @@
+predicted_origin,diagnosis_confidence,feature_onset,prediction_onset,residual_onset,performance_onset,baseline_mae,current_mae,baseline_rmse,current_rmse,baseline_r2,current_r2,prediction_drift,residual_drift
+feature,0.1255,200,250,,750,33.31797205760802,39.782446020809836,45.5292523072889,56.38761629728467,0.5928912539136034,0.5384808814543938,True,True

@@ -1,0 +1,10 @@
+scenario,origin,confidence,action,severity,risk_score,reason
+F01_feature_abrupt,feature,0.7043,UPDATE,MEDIUM,0.4061,"Meaningful drift has been detected, but the evidence does not yet justify full retraining. A lightweight model update is recommended."
+F02_feature_gradual,feature,0.7102,UPDATE,MEDIUM,0.4351,"Meaningful drift has been detected, but the evidence does not yet justify full retraining. A lightweight model update is recommended."
+F03_multi_feature,feature,0.5252,UPDATE,MEDIUM,0.4253,"Meaningful drift has been detected, but the evidence does not yet justify full retraining. A lightweight model update is recommended."
+F04_concept,unknown,0.0,MONITOR,LOW,0.0,No reliable drift origin was established. The system remains in monitoring mode.
+F05_prediction,prediction,0.4903,UPDATE,MEDIUM,0.4666,"Meaningful drift has been detected, but the evidence does not yet justify full retraining. A lightweight model update is recommended."
+F06_prediction_controlled,prediction,0.6189,RETRAIN,HIGH,0.7243,Strong drift evidence and significant performance degradation justify full model retraining.
+F07_performance_only,performance,0.5,RETRAIN,HIGH,0.7039,Model performance has degraded significantly even without a strong prediction-distribution shift. Full retraining is recommended.
+F08_recurrent,feature,0.4114,UPDATE,MEDIUM,0.3,A recurrent drift pattern has been identified. A lightweight model update is preferred so the model can adapt to the returning regime.
+F09_no_drift,unknown,0.0,MONITOR,LOW,0.0,No reliable drift origin was established. The system remains in monitoring mode.

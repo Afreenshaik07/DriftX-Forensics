@@ -1,0 +1,2 @@
+champion_mae,challenger_mae,mae_improvement,mae_improvement_ratio,champion_rmse,challenger_rmse,champion_r2,challenger_r2,decision,reason
+30.356623,34.465758,-4.109135,-0.135362,41.000897,48.121462,0.72006,0.614384,REJECT,"Challenger rejected by safety gate: insufficient MAE improvement, RMSE degradation, R2 degradation."

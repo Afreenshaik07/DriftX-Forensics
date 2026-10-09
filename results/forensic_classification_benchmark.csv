@@ -1,0 +1,4 @@
+scenario,true_cause,predicted_cause,cause_correct,true_first,predicted_first,first_correct
+F01_feature,FEATURE_DRIFT,FEATURE_DRIFT,True,feature,feature,True
+F04_concept,CONCEPT_DRIFT,CONCEPT_DRIFT,True,residual,residual,True
+F06_prediction,PREDICTION_DRIFT,PREDICTION_DRIFT,True,prediction,prediction,True

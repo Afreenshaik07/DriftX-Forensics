@@ -1,0 +1,10 @@
+scenario,true_cause,true_first_stage,predicted_origin,forensic_confidence,drift_strength,performance_degradation,impact_score,adaptation_action,severity,risk_score,reason,expected_action,action_correct
+F01_feature_abrupt,FEATURE_DRIFT,feature,feature,0.5075,1.0,0.0176,0.023,UPDATE,MEDIUM,0.3872,Drift is meaningful but the evidence does not yet justify full retraining.,UPDATE,True
+F02_feature_gradual,FEATURE_DRIFT,feature,feature,0.499,0.9902,0.8519,0.6013,UPDATE,MEDIUM,0.7778,Drift is meaningful but the evidence does not yet justify full retraining.,UPDATE,True
+F03_multi_feature,FEATURE_DRIFT,feature,feature,0.5286,1.0,0.1026,0.1026,UPDATE,MEDIUM,0.4357,Drift is meaningful but the evidence does not yet justify full retraining.,UPDATE,True
+F04_concept,CONCEPT_DRIFT,residual,residual,0.3355,0.3545,0.5276,0.5276,MONITOR,LOW,0.4469,Drift evidence is insufficient for safe adaptation. Continue monitoring.,RETRAIN,False
+F05_prediction,PREDICTION_DRIFT,prediction,prediction,0.4953,0.4162,0.5096,0.5096,UPDATE,MEDIUM,0.4794,Drift is meaningful but the evidence does not yet justify full retraining.,UPDATE,True
+F06_prediction_controlled,PREDICTION_DRIFT,prediction,prediction,0.6255,0.5095,0.8915,0.8915,RETRAIN,HIGH,0.737,Strong drift evidence and significant performance degradation justify full model retraining.,RETRAIN,True
+F07_performance_only,PERFORMANCE_ONLY,performance,performance,0.5,0.2657,1.0,1.0,RETRAIN,HIGH,0.7047,Strong drift evidence and significant performance degradation justify full model retraining.,RETRAIN,True
+F08_recurrent,RECURRENT_DRIFT,feature,feature,0.2557,0.5002,0.0141,0.0176,MONITOR,LOW,0.197,Drift evidence is insufficient for safe adaptation. Continue monitoring.,UPDATE,False
+F09_no_drift,NO_DRIFT,none,unknown,0.0,0.0191,0.9504,0.6701,MONITOR,LOW,0.0,No reliable drift origin was established. Continue monitoring instead of adapting the model.,MONITOR,True

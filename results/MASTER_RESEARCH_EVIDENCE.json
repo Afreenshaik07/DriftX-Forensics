@@ -1,0 +1,11 @@
+{
+  "forensic_accuracy": 0.7777777777777778,
+  "temporal_baseline_accuracy": 0.6666666666666666,
+  "streaming_champion_mae": 13.834849387728351,
+  "streaming_adapted_mae": 12.8582864903136,
+  "streaming_mae_improvement": 0.07058717229556347,
+  "adaptation_ablation_available": true,
+  "forensic_benchmark_available": true,
+  "streaming_benchmark_available": true,
+  "regime_memory_available": true
+}

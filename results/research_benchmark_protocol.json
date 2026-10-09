@@ -1,0 +1,57 @@
+{
+  "name": "DriftX-Forensics Research Benchmark v1",
+  "scenario_types": [
+    "feature_abrupt",
+    "feature_gradual",
+    "multi_feature",
+    "concept",
+    "prediction",
+    "prediction_controlled",
+    "performance_only",
+    "recurrent",
+    "no_drift"
+  ],
+  "magnitudes": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "onset_fractions": [
+    0.2,
+    0.35,
+    0.5,
+    0.65,
+    0.8
+  ],
+  "seeds": [
+    7,
+    21,
+    42,
+    84,
+    123,
+    156,
+    201,
+    256,
+    314,
+    512
+  ],
+  "metrics": [
+    "forensic_accuracy",
+    "baseline_accuracy",
+    "per_class_accuracy",
+    "confusion_matrix",
+    "confidence",
+    "calibration"
+  ],
+  "rules": {
+    "test_data_is_not_used_for_threshold_tuning": true,
+    "ground_truth_is_generated_before_diagnosis": true,
+    "same_cases_are_used_for_driftx_and_baseline": true,
+    "random_seed_is_recorded": true,
+    "magnitude_is_recorded": true,
+    "onset_fraction_is_recorded": true,
+    "existing_forensic_engine_is_unchanged": true
+  }
+}

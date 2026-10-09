@@ -1,0 +1,2 @@
+adaptation_training_fraction,historical_training_rows,adaptation_rows,test_rows,champion_mae,challenger_mae,mae_improvement,mae_improvement_ratio,champion_rmse,challenger_rmse,champion_r2,challenger_r2,safety_decision,registry_action,reason
+0.3,16138,4842,4493,30.356623,36.978822,-6.622198,-0.218147,41.000897,49.806719,0.72006,0.586902,REJECT,KEEP_CHAMPION,"Challenger rejected by safety gate: insufficient MAE improvement, RMSE degradation, R2 degradation."

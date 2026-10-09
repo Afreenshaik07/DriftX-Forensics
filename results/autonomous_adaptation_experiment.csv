@@ -1,0 +1,10 @@
+scenario,true_cause,predicted_origin,confidence,action,severity,risk_score,reason,previous_regime,regime_distance
+F01_feature_abrupt,FEATURE_DRIFT,feature,0.7043,UPDATE,MEDIUM,0.4061,"Meaningful drift has been detected, but evidence does not justify full retraining.",REGIME_001,0.0
+F02_feature_gradual,FEATURE_DRIFT,feature,0.7102,UPDATE,MEDIUM,0.4351,"Meaningful drift has been detected, but evidence does not justify full retraining.",REGIME_002,0.0
+F03_multi_feature,FEATURE_DRIFT,feature,0.5252,UPDATE,MEDIUM,0.4253,"Meaningful drift has been detected, but evidence does not justify full retraining.",REGIME_003,0.0
+F04_concept,CONCEPT_DRIFT,unknown,0.0,MONITOR,LOW,0.0,No reliable drift origin was established. The system remains in monitoring mode.,REGIME_004,0.0
+F05_prediction,PREDICTION_DRIFT,prediction,0.4903,UPDATE,MEDIUM,0.4666,"Meaningful drift has been detected, but evidence does not justify full retraining.",REGIME_005,0.0
+F06_prediction_controlled,PREDICTION_DRIFT,prediction,0.6189,RETRAIN,HIGH,0.7243,Strong current drift evidence and performance degradation justify full retraining.,REGIME_006,0.0
+F07_performance_only,PERFORMANCE_ONLY,performance,0.5,RETRAIN,HIGH,0.7039,Significant performance degradation requires full retraining.,REGIME_007,0.0
+F08_recurrent,RECURRENT_DRIFT,feature,0.4114,UPDATE,LOW,0.1867,Recurrent drift supports a lightweight model update.,REGIME_008,0.0
+F09_no_drift,NO_DRIFT,unknown,0.0,MONITOR,LOW,0.0,No reliable drift origin was established. The system remains in monitoring mode.,REGIME_009,0.0
