@@ -1,0 +1,29 @@
+DRIFTX-FORENSICS: EXPERIMENT VALIDATION
+==========================================
+
+FILE: results\forensic_full_benchmark.csv
+Rows: 9
+Columns: 22
+Duplicate complete rows: 0
+Rows with missing values: 9
+Unique scenario: 9
+Unique true_cause: 6
+Unique true_first_stage: 5
+Unique predicted_origin: 4
+Unique forensic_confidence: 8
+Comparable labelled rows: 9
+Origin accuracy: 0.778
+
+FILE: results\forensic_multiseed.csv
+Rows: 45
+Columns: 25
+Duplicate complete rows: 0
+Rows with missing values: 45
+Unique scenario: 9
+Unique true_cause: 6
+Unique true_first_stage: 5
+Unique predicted_origin: 4
+Unique forensic_confidence: 8
+Unique seed: 5
+Comparable labelled rows: 45
+Origin accuracy: 0.778
