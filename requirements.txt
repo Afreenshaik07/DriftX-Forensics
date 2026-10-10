@@ -1,2 +1,9 @@
-streamlit==1.65.0
+# Review before deployment; generated from detected imports.
+joblib
+numpy
 pandas
+PyYAML
+reportlab>=4.2,<5
+scikit-learn
+scipy
+streamlit==1.65.0

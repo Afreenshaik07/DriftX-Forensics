@@ -1,4 +1,5 @@
 import streamlit as st
+from src.driftx.evaluation.remediation_recommender import recommend_remediation
 from pathlib import Path
 import pandas as pd
 
@@ -142,3 +143,21 @@ st.success(
     f"DriftX forensic conclusion: **{origin}** is the most likely "
     f"origin of the observed failure with **{confidence:.1%} confidence**."
 )
+
+
+st.divider()
+st.subheader("Recommended Remediation")
+origin = st.selectbox(
+    "Diagnosed drift origin",
+    ["feature", "prediction", "residual", "performance", "unknown", "none"]
+)
+confidence = st.slider("Diagnosis confidence", 0.0, 1.0, 0.8, 0.05)
+recommendation = recommend_remediation(origin, confidence)
+st.markdown("### " + recommendation["title"])
+st.write(recommendation["reason"])
+st.metric("Recommended action", recommendation["action"])
+st.write("**Recommended steps**")
+for step in recommendation["steps"]:
+    st.write("- " + step)
+st.info("Verification: " + recommendation["verification"])
+st.caption("Recommendation only ? no model changes execute automatically.")

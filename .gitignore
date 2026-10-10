@@ -1,4 +1,4 @@
-﻿.venv/
+.venv/
 venv/
 __pycache__/
 *.py[cod]
@@ -20,3 +20,11 @@ artifacts/
 
 *.bak
 CMAPSSData.zip
+
+# Local virtual environments
+.venv-deploy/
+# Local incident records and recovery backups
+results/incident_history.jsonl
+results/incident_history_backup_*.jsonl
+results/incident_history_pre_restore_*.jsonl
+results/incident_history_recovered.jsonl
